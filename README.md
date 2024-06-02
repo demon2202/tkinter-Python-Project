@@ -21,12 +21,10 @@ Tinker (more commonly known as Tkinter) is the standard GUI toolkit included wit
 
 1. **Installation**
 
-   -To use Tinker, you need to have Python installed on your system. Tkinter comes bundled with Python, so no additional installation is required. 
-   -To verify Tkinter is installed, you can run the following command in your Python environment:
+
 ```python
 import tkinter
 ```
-   -If no errors occur, Tkinter is installed and ready to use.
 
 2. **Main Window**:
    - The core of any Tkinter application is the main window, which acts as the container for all other widgets. This main window is created using `tk.Tk()`.
