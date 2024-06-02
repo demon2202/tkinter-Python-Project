@@ -1,7 +1,3 @@
-Certainly! Let's expand on the README file with more examples and include the expected output for each example:
-
----
-
 # Tinker 
 
 ## Introduction
@@ -191,5 +187,3 @@ Contributions are welcome! Please open an issue or submit a pull request if you 
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ---
-
-Feel free to customize the README file according to your needs. If you have any specific requirements or additional details you'd like to include, let me know!
