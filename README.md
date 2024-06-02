@@ -27,6 +27,7 @@ import tkinter as tk
 
 
 ```
+---
 
 Once imported, you can create a main application window by creating an instance of the `Tk` class:
 
@@ -38,7 +39,7 @@ root = tk.Tk()
 
 The `Tk` class represents the main window of your application, also known as the root window.
 
-
+---
 ## Examples
 
 ### Example 1: Creating a Simple Window
@@ -62,7 +63,7 @@ root.mainloop()
 
 A window titled "My First GUI Application" with dimensions 300x200 containing a label displaying the text "Hello, tkinter!".
 
-
+---
 
 ### Example 2: Adding Buttons
 
@@ -90,7 +91,7 @@ root.mainloop()
 **Output:**  
 A window titled "Button Example" with a label displaying the text "Click the Button!" and a button labeled "Click Me". When the button is clicked, the label text changes to "Button Clicked!".
 
-
+---
 
 ### Example 3: Creating a Checkbox
 
@@ -123,7 +124,7 @@ root.mainloop()
 **Output:**  
 A window titled "Checkbox Example" with a checkbox labeled "Check Me". Below the checkbox, there is a label that displays the status of the checkbox (checked or unchecked) based on the user's interaction.
 
-
+---
 
 ### Example 4: Creating a Simple Form
 
@@ -162,7 +163,7 @@ root.mainloop()
 **Output:**
 This script creates a simple form with fields for name and age. When the "Submit" button is clicked, it displays the entered name and age below the form.
 
-
+---
 
 ### Example 5: Creating a Counter Application
 
