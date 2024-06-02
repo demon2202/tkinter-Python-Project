@@ -19,8 +19,14 @@ Tinker (more commonly known as Tkinter) is the standard GUI toolkit included wit
 
 ### How Tkinter Works
 
-1. **Tkinter Module**:
-   - Tkinter is imported as a module in Python, providing access to the Tkinter library's functionality.
+1. **Installation**
+
+-To use Tinker, you need to have Python installed on your system. Tkinter comes bundled with Python, so no additional installation is required. 
+-To verify Tkinter is installed, you can run the following command in your Python environment:
+-```python
+-import tkinter
+-```
+-If no errors occur, Tkinter is installed and ready to use.
 
 2. **Main Window**:
    - The core of any Tkinter application is the main window, which acts as the container for all other widgets. This main window is created using `tk.Tk()`.
@@ -131,8 +137,7 @@ if __name__ == "__main__":
 ### Summary
 
 Tkinter works by creating a main window, placing widgets in this window, handling events with callback functions, and running a main loop to keep the application responsive. This simple yet powerful model allows for the creation of various GUI applications in Python.
-## Getting Started
-To start using tkinter, you need to import it into your Python script:
+
 
 # Examples
 
