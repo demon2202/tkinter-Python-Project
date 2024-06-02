@@ -22,21 +22,28 @@ When you write Python code using tkinter, you're essentially using Python's inte
 To start using tkinter, you need to import it into your Python script:
 
 ```python
+
 import tkinter as tk
+
+
 ```
 
 Once imported, you can create a main application window by creating an instance of the `Tk` class:
 
 ```python
+
 root = tk.Tk()
+
 ```
 
 The `Tk` class represents the main window of your application, also known as the root window.
+
 
 ## Examples
 
 ### Example 1: Creating a Simple Window
 ```python
+
 import tkinter as tk
 
 root = tk.Tk()
@@ -47,13 +54,20 @@ label = tk.Label(root, text="Hello, tkinter!")
 label.pack()
 
 root.mainloop()
+
 ```
 
+
 **Output:**  
+
 A window titled "My First GUI Application" with dimensions 300x200 containing a label displaying the text "Hello, tkinter!".
 
+
+
 ### Example 2: Adding Buttons
+
 ```python
+
 import tkinter as tk
 
 def button_click():
@@ -69,13 +83,19 @@ button = tk.Button(root, text="Click Me", command=button_click)
 button.pack()
 
 root.mainloop()
+
 ```
+
 
 **Output:**  
 A window titled "Button Example" with a label displaying the text "Click the Button!" and a button labeled "Click Me". When the button is clicked, the label text changes to "Button Clicked!".
 
+
+
 ### Example 3: Creating a Checkbox
+
 ```python
+
 import tkinter as tk
 
 def check_status():
@@ -95,15 +115,20 @@ status_label = tk.Label(root, text="")
 status_label.pack()
 
 root.mainloop()
+
+
 ```
+
 
 **Output:**  
 A window titled "Checkbox Example" with a checkbox labeled "Check Me". Below the checkbox, there is a label that displays the status of the checkbox (checked or unchecked) based on the user's interaction.
 
 
+
 ### Example 4: Creating a Simple Form
 
 ```python
+
 import tkinter as tk
 
 def submit_form():
@@ -130,14 +155,19 @@ result_label = tk.Label(root, text="")
 result_label.pack(pady=10)
 
 root.mainloop()
+
 ```
+
 
 **Output:**
 This script creates a simple form with fields for name and age. When the "Submit" button is clicked, it displays the entered name and age below the form.
 
+
+
 ### Example 5: Creating a Counter Application
 
 ```python
+
 import tkinter as tk
 
 class CounterApp:
@@ -167,21 +197,29 @@ root.geometry("300x200")
 app = CounterApp(root)
 
 root.mainloop()
+
 ```
+
 
 **Output:**
 This script creates a counter application with "Increment" and "Decrement" buttons to increase and decrease the counter value displayed on the window.
 
 
 ---
+
+
 ## Further Resources
 - [Official tkinter Documentation](https://docs.python.org/3/library/tkinter.html): The official documentation provides detailed information about tkinter's classes, methods, and widgets.
 - [Real Python tkinter Tutorial](https://realpython.com/python-gui-tkinter/): A comprehensive tutorial on tkinter covering various aspects of GUI development in Python.
 - [tkinter GUI Application Development Cookbook](https://www.packtpub.com/product/tkinter-gui-application-development-cookbook/9781788837460): A cookbook-style guide with practical recipes for building GUI applications using tkinter.
 
+
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or new features to suggest.
+
+
 
 ## License
 
