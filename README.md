@@ -2,7 +2,7 @@ Certainly! Let's expand on the README file with more examples and include the ex
 
 ---
 
-# tkinter Module README
+# Tinker 
 
 ## Introduction
 The tkinter module is Python's standard GUI (Graphical User Interface) toolkit. It provides developers with a convenient and powerful way to create desktop applications with graphical interfaces. With tkinter, you can easily design windows, dialogs, buttons, menus, and other GUI components to build interactive applications.
